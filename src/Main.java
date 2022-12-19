@@ -7,6 +7,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -79,4 +80,15 @@ public class Main {
         var weightDifference = Math.abs(weightBoxer1 - weightBoxer2);
         System.out.println("Разница в весе "+weightDifference+" КГ");
     }
+    public static  void task7()
+    {
+        System.out.println("Задача 7");
+        var weightBoxer1 = 78.2;
+        var weightBoxer2 = 82.7;
+        var weightDifferenceOne = Math.abs(weightBoxer1 - weightBoxer2);
+        System.out.println("Разница в весе вариант 1 "+weightDifferenceOne+" КГ");
+        var weightDifferenceTwo = weightBoxer2 % weightBoxer1;
+        System.out.println("Разница в весе вариант 2 "+weightDifferenceTwo+" КГ");
+    }
+
 }
